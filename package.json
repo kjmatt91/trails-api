@@ -1,0 +1,26 @@
+{
+  "name": "trails-api",
+  "version": "1.0.0",
+  "description": "An API that will allow users to search for nearby trails by location and type of trail.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjmatt91/trails-api.git"
+  },
+  "author": "Kaleb Mattison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjmatt91/trails-api/issues"
+  },
+  "homepage": "https://github.com/kjmatt91/trails-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
