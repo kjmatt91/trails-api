@@ -1,11 +1,8 @@
 /* eslint-disable no-console */
-// get trails by area (State/Zip)
-// get trails by type (Hiking, Bike, Etc.)
-// create express project with pug files only to describe each GET/POST/PUT/DELETE with example of request and response for each
 
 const bodyParser = require('body-parser')
 const express = require('express')
-// const {getAllTrails, getTrailsByState, getTrailsByZip, getTrailsByType} = require('')  will need to finish this set up
+// const {getAllTrails, getTrailsById} = require('')  will need to finish this set up
 const app = express()
 const port = 8080
 
