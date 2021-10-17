@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 const allConfigs = require('../config/sequelize')
-const TrailsModel = require('./trails')
+const TrailsModel = require('./trailsModel')
 
 const environment = process.env.NODE_ENV ? process.env.NODE_ENV : 'development'
 const config = allConfigs[environment]

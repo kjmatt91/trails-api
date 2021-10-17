@@ -1,4 +1,4 @@
-const models = require('../models')
+const models = require('../models/indexModel')
 
 const getAllTrails = async (request, response) => {
   try {
@@ -42,7 +42,7 @@ const createTrail = async (request, response) => {
 
     return response.status(201).send(newTrail)
   } catch (error) {
-    return response.status(500).send('Unknown error retrieving trail')
+    return response.status(500).send('Unknown error creating trail')
   }
 }
 
